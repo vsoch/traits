@@ -1,0 +1,283 @@
+id	trait	original_or_opposite	opposite	opposite_id	subtype_level1	subtype_level2	cluster_core	definition	source	author	year
+1	abilities	original			intelligence			capacity to perceive relations, insight, quickness to learn, adaptability in problems.	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+2	abilities	original			special abilities	drawing		facility in graphical representation	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+3	abilities	original			special abilities	mathematical		number ability	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Thurstone's N	1943
+4	abilities	original			special abilities	manual dexterity		facility in constructing and understanding machinery	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cox's M factor	1943
+5	abilities	original			special abilities	mechanical aptitude			http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+6	abilities	original			special abilities	musical aptitude			http://psycnet.apa.org/journals/abn/38/4/476.pdf	Seashore	1943
+7	abilities	original			special abilities	physical strength and endurance			http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+8	abilities	original			special abilities	logical ability, reasoning			http://psycnet.apa.org/journals/abn/38/4/476.pdf	Thurstone's I	1943
+9	abilities	original			special abilities	spatial, visual ability			http://psycnet.apa.org/journals/abn/38/4/476.pdf	Thurstone's S and Kelley's factors	1943
+10	abilities	original			special abilities	verbal attitude			http://psycnet.apa.org/journals/abn/38/4/476.pdf	Thurstone and Spearman's V factor	1943
+11	alert	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+12	acquisitive	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+13	affected	original	natural	231					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+14	affectionate	original	frigid	201					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+15	agoraphobic	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+16	alcoholic	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+17	ambitious	original	unambitious	274					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+18	amorous	original	lustless	225					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+19	analytical	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+20	antevert	original	retrovert	249					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+21	argumentative	original					assertive, egotistic		http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+22	arrogant	original	humble	209			assertive, egotistic		http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+23	ascetic	original	sensuous	257					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+24	assertive	original	submissive	266			assertive, egotistic		http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+25	austere	original	profligate	240					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+26	autocratic	original					assertive, egotistic		http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+27	boastful	original	modest	229			assertive, egotistic		http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+28	brooding	original	unrepining	281					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+29	cautious	original	reckless	247					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+30	charming	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+31	cheerful	original	gloomy	204					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+32	clear thinking	original	incoherent	215					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+33	clever	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+34	claustrophobic	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+35	conceited	original	self-dissatisfied	254			assertive, egotistic		http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+36	conscientious	original	conscienceless	185					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+37	constructive	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+38	contended	original	dissatisfied	193					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+39	conventional	original	individualistic	217					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+40	cooperative	original	obstructive	232					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+41	courageous	original	cowardly	186					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+42	curious	original	unenquiring	277					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+43	cynical	original	idealistic	211					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+44	debonnaire	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+45	defensive	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+46	dubitative	original	decisive	187					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+47	easy-going	original	short-tempered	260					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+48	eccentric	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+49	effeminate	original	masculine	266					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+50	egotistical	original	altocentric	175					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+51	eloquent	original	inarticulate	214					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+52	emotional I	original	unemotional	276				emotionality in all varieties of emotion.	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Burt's general emotionality factor	1943
+53	emotional II	original	unemotional	276				emotionality in sociability, assertive	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Burt's Sthenic-asthenic factor	1943
+54	energetic-spirited	original	languid	222					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+55	energetic-industrious	original	inactive-indolent	213					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+56	enterprising	original	shiftless	259					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+57	enthusiastic	original	apathetic	176					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+58	evasive	original	facing life	197					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+59	excitable	original	phlegmatic	236					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+60	extra-punitive	original	praiseful	239					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+61	exhibitionistic	original	self-effacing	256			assertive, egotistic		http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+62	fair-minded	original	partial	233					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+63	fastidious	original	coarse	183					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+64	flattering	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+65	formal	original	casual	181					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+66	frank	original	secretive	252					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+67	friendly	original	hostile	208					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+68	generous	original	tight-fisted	271					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+69	genial	original	cold-hearted	184					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+70	gluttonous	original	queasy	241					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+71	grateful	original	thankless	270					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+72	habit-bound	original	labile	221					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+73	hard	original	soft-hearted	265					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+74	headstrong	original	gentle tempered	203			assertive, egotistic		http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+75	hearty	original	quiet	243					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+76	high-strung	original	relaxed	248					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+77	honest	original	dishonest	191					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+78	hurried	original	lethargic	223					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+79	hypochondriacal	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+80	imaginative	original	dull	194					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+81	imitative	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+82	impulsive temperamentally	original	deliberate	188					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+83	independent	original	dependent	189					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+84	inflexible (emotionally)	original	adaptable (to change)	172					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+85	inhibited	original	incontinent	216					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+86	interests wide	original	interests narrow	219					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+87	interests special	original			aesthetic (general)				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+88	interests special	original			artistic			painting, art, architecture	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+89	interests special	original			economic				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+90	interests special	original			home and family				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+91	interests special	original			music				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+92	interests special	original			physical activity				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+93	interests special	original			political				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+94	interests special	original			religious				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+95	interests special	original			social				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+96	interests special	original			theoretical				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+97	interests special	original			technical				http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+98	intuitive	original	logical	224					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+99	introspective	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+100	irritable	original	good tempered	205					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+101	jealous	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+102	kind (by disposition)	original	ruthless	251					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+103	kind (on principle)	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+104	laughterful	original	mirthless	228					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+105	leading (not domineering)	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+106	loyal	original	fickle	198					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+107	mature (in emotional development)	original	infantile	218					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+108	memory good	original	forgetful	200					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+109	mischievous	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+110	mulish	original	reasonable	245					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+111	mystical	original	appollonian	177					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+112	neurotic	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+113	opinionated	original	tolerant	272					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+114	optimistic	original	pessimistic	235					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+115	original	original	banal	179					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+116	patient	original	impatient	212					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+117	painstaking	original	slipshod	264					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+118	pedantic	original	disorderly	192					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+119	persevering	original	quitting	244					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+120	phantasying	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+121	physically active	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+122	pious	original	worldly	282					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+123	plaintive	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+124	planful	original	planless	238					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+125	poised	original	awkward	178					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+126	polished	original	rough	250					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+127	practical	original	unrealistic	278					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+128	pugnacious	original	peaceable	234					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+129	reliable	original	undependable	275					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+130	reserved	original	intrusive	220					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+131	resilient	original	depressible	190					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+132	responsive	original	aloof	174					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+133	reverent	original	rebellious	246					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+134	sadistic	original	masochistic	227					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+135	sarcastic	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+136	self-confident	original	self-distrusting	255					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+137	self-controlled	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+138	self-deceiving	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+139	self-pitying	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+140	self-respecting	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+141	selfish	original	self-denying	253					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+142	sensitive	original	tough	273					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+143	sentimental	original	hard-headed	207					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+144	serious	original	frivolous	202					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+145	shrewd	original	naïve	230					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+146	slanderous	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+147	sleeps well	original	sleeps poorly	263					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+148	slow (temperamentally, in movement, in reaction)	original	quick	242					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+149	sociable I	original	shy	261				fond of meeting people, good mixer	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+150	sociable II	original	exclusive	195				gregarious, congregative, companionable	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+151	sophisticated	original	simple hearted	262					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+152	sour	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+153	stable emotionally	original	changeable	182					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+154	strong in personality	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+155	subjective	original	guided by reality	206					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+156	suggestible	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+157	tactful	original	tactless	269					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+158	talkative	original	taciturn	268					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+159	temperate	original	extreme (in schizohyme sense)	196					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+160	thoughtful	original	unreflective	279					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+161	thrifty	original	careless with goods	180					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+162	timid (disposition)	original	adventurous	173					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+163	treacherous	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+164	trustful	original	suspicious	267					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+165	versatile	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+166	vindictive	original	unresentful	281					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+167	vivacious	original							http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+168	wandering	original	settling down	258					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+169	witty	original	humorless	210					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+170	wise	original	foolish	199					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+171	worrying	original	placid	237					http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+172	adaptable (to change)	opposite	inflexible (emotionally)	84							
+173	adventurous	opposite	timid (disposition)	162							
+174	aloof	opposite	responsive	132							
+175	altocentric	opposite	egotistical	50							
+176	apathetic	opposite	enthusiastic	57							
+177	appollonian	opposite	mystical	111							
+178	awkward	opposite	poised	125							
+179	banal	opposite	original	115							
+180	careless with goods	opposite	thrifty	161							
+181	casual	opposite	formal	65							
+182	changeable	opposite	stable emotionally	153							
+183	coarse	opposite	fastidious	63							
+184	cold-hearted	opposite	genial	69							
+185	conscienceless	opposite	conscientious	36							
+186	cowardly	opposite	courageous	41							
+187	decisive	opposite	dubitative	46							
+188	deliberate	opposite	impulsive temperamentally	82							
+189	dependent	opposite	independent	83							
+190	depressible	opposite	resilient	131							
+191	dishonest	opposite	honest	77							
+192	disorderly	opposite	pedantic	118							
+193	dissatisfied	opposite	contented	38							
+194	dull	opposite	imaginative	80							
+195	exclusive	opposite	sociable II	150							
+196	extreme (in schizohyme sense)	opposite	temperate	159							
+197	facing life	opposite	evasive	58							
+198	fickle	opposite	loyal	106							
+199	foolish	opposite	wise	170							
+200	forgetful	opposite	memory good	108							
+201	frigid	opposite	affectionate	14							
+202	frivolous	opposite	serious	144							
+203	gentle tempered	opposite	headstrong	74							
+204	gloomy	opposite	cheerful	31							
+205	good tempered	opposite	irritable	100							
+206	guided by reality	opposite	subjective	155							
+207	hard-headed	opposite	sentimental	143							
+208	hostile	opposite	friendly	67							
+209	humble	opposite	arrogant	22							
+210	humorless	opposite	witty	169							
+211	idealistic	opposite	cynical	43							
+212	impatient	opposite	patient	116							
+213	inactive-indolent	opposite	energetic-industrious	55							
+214	inarticulate	opposite	eloquent	51							
+215	incoherent	opposite	clear thinking	32							
+216	incontinent	opposite	inhibited	85							
+217	individualistic	opposite	conventional	89							
+218	infantile	opposite	mature (in emotional development)	107							
+219	interests narrow	opposite	interests wide	86							
+220	intrusive	opposite	reserved	130							
+221	labile	opposite	habit-bound	72							
+222	languid	opposite	energetic-spirited	54							
+223	lethargic	opposite	hurried	78							
+224	logical	opposite	intrusive	98							
+225	lustless	opposite	amorous	18							
+226	masculine	opposite	effeminate	49							
+227	masochistic	opposite	sadistic	134							
+228	mirthless	opposite	laughterful	104							
+229	modest	opposite	boastful	27							
+230	naïve	opposite	shrewd	145							
+231	natural	opposite	affected	13							
+232	obstructive	opposite	cooperative	40							
+233	partial	opposite	fair-minded	62							
+234	peaceable	opposite	pugnacious	128							
+235	pessimistic	opposite	optimistic	114							
+236	phlegmatic	opposite	excitable	59							
+237	placid	opposite	worrying	171							
+238	planless	opposite	planful	124							
+239	praiseful	opposite	extra-punitive	60							
+240	profligate	opposite	austere	25							
+241	queasy	opposite	gluttonous	70							
+242	quick	opposite	slow (temperamentally, in movement, in reaction)	148							
+243	quiet	opposite	hearty	75							
+244	quitting	opposite	persevering	119							
+245	reasonable	opposite	mullish	110							
+246	rebellious	opposite	reverent	133							
+247	reckless	opposite	cautious	29							
+248	relaxed	opposite	high-strung	76							
+249	retrovert	opposite	antevert	20							
+250	rough	opposite	polished	126							
+251	ruthless	opposite	kind (by disposition)	102							
+252	secretive	opposite	frank	66							
+253	self-denying	opposite	selfish	141							
+254	self-dissatisfied	opposite	conceited	35							
+255	self-distrusting	opposite	self-confident	136							
+256	self-effacing	opposite	exhibitionistic	61							
+257	sensuous	opposite	ascetic	23							
+258	settling down	opposite	wandering	168							
+259	shiftless	opposite	enterprising	56							
+260	short-tempered	opposite	easy-going	47							
+261	shy	opposite	sociable I	149							
+262	simple hearted	opposite	sophisticated	151							
+263	sleeps poorly	opposite	sleeps well	147							
+264	slipshod	opposite	painstaking	117							
+265	soft-hearted	opposite	hard	173							
+266	submissive	opposite	assertive	24							
+267	suspicious	opposite	trustful	164							
+268	taciturn	opposite	talkative	158							
+269	tactless	opposite	tactful	157							
+270	thankless	opposite	grateful	71							
+271	tight-fisted	opposite	generous	68							
+272	tolerant	opposite	opinionated	113							
+273	tough	opposite	sensitive	142							
+274	unambitious	opposite	ambitious	17							
+275	undependable	opposite	reliable	129							
+276	unemotional	opposite	emotional I,II	52,53							
+277	unenquiring	opposite	curious	42							
+278	unrealistic	opposite	practical	127							
+279	unreflective	opposite	thoughtful	160							
+280	unrepining	opposite	brooding	28							
+281	unresentful	opposite	vindictive	166							
+282	worldly	opposite	pious	122							
