@@ -1,0 +1,172 @@
+id	trait	opposite	subtype_level1	subtype_level2	cluster_core	definition	source	author	year
+1	abilities		intelligence			capacity to perceive relations, insight, quickness to learn, adaptability in problems.	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Cattell	1943
+2	abilities		special abilities	drawing		facility in graphical representation	http://psycnet.apa.org/journals/abn/38/4/476.pdf		
+3	abilities		special abilities	mathematical		number ability	http://psycnet.apa.org/journals/abn/38/4/476.pdf	Thurstone's N	
+4	abilities		special abilities	manual dexterity		facility in constructing and understanding machinery		Cox's M factor	
+5	abilities		special abilities	mechanical aptitude					
+6	abilities		special abilities	musical aptitude				Seashore	
+7	abilities		special abilities	physical strength and endurance					
+8	abilities		special abilities	logical ability, reasoning				Thurstone's I	
+9	abilities		special abilities	spatial, visual ability				Thurstone's S and Kelley's factors	
+10	abilities		special abilities	verbal attitude				Thurstone and Spearman's V factor	
+11	alert								
+12	acquisitive								
+13	affected	natural							
+14	affectionate	frigid							
+15	agoraphobic								
+16	alcoholic								
+17	ambitious	unambitious							
+18	amorous	lustless							
+19	analytical								
+20	antevert	retrovert							
+21	argumentative				assertive, egotistic				
+22	arrogant	humble			assertive, egotistic				
+23	ascetic	sensuous							
+24	assertive	submissive			assertive, egotistic				
+25	austere	profligate							
+26	autocratic				assertive, egotistic				
+27	boastful	modest			assertive, egotistic				
+28	brooding	unrepining							
+29	cautious	reckless							
+30	charming								
+31	cheerful	gloomy							
+32	clear thinking	incoherent							
+33	clever								
+34	claustrophobic								
+35	conceited	self-dissatisfied			assertive, egotistic				
+36	conscientious	conscienceless							
+37	constructive								
+38	contended	dissatisfied							
+39	conventional	individualistic							
+40	cooperative	obstructive							
+41	courageous	cowardly							
+42	curious	unenquiring							
+43	cynical	idealistic							
+44	debonnaire								
+45	defensive								
+46	dubitative	decisive							
+47	easy-going	short-tempered							
+48	eccentric								
+49	effeminate	masculine							
+50	egotistical	altocentric							
+51	eloquent	inarticulate							
+52	emotional I	unemotional				emotionality in all varieties of emotion.		Burt's general emotionality factor	
+53	emotional II	unemotional				emotionality in sociability, assertive		Burt's Sthenic-asthenic factor	
+54	energetic-spirited	languid							
+55	energetic-industrious	inactive-indolent							
+56	enterprising	shiftless							
+57	enthusiastic	apathetic							
+58	evasive	facing life							
+59	excitable	phlegmatic							
+60	extra-punitive	praiseful							
+61	exhibitionistic	self-effacing			assertive, egotistic				
+62	fair-minded	partial							
+63	fastidious	coarse							
+64	flattering								
+65	formal	casual							
+66	frank	secretive							
+67	friendly	hostile							
+68	generous	tight-fisted							
+69	genial	cold-hearted							
+70	gluttonous	queasy							
+71	grateful	thankless							
+72	habit-bound	labile							
+73	hard	soft-hearted							
+74	headstrong	gentle tempered			assertive, egotistic				
+75	hearty	quiet							
+76	high-strung	relaxed							
+77	honest	dishonest							
+78	hurried	lethargic							
+79	hypochondriacal								
+80	imaginative	dull							
+81	imitative								
+82	impulsive temperamentally	deliberate							
+83	independent	dependent							
+84	inflexible (emotionally)	adaptable (to change)							
+85	inhibited	incontinent							
+86	interests wide	interests narrow							
+87	interests special		aesthetic (general)						
+88	interests special		artistic			painting, art, architecture			
+89	interests special		economic						
+90	interests special		home and family						
+91	interests special		music						
+92	interests special		physical activity						
+93	interests special		political						
+94	interests special		religious						
+95	interests special		social						
+96	interests special		theoretical						
+97	interests special		technical						
+98	intuitive	logical							
+99	introspective								
+100	irritable	good tempered							
+101	jealous								
+102	kind (by disposition)	ruthless							
+103	kind (on principle)								
+104	laughterful	mirthless							
+105	leading (not domineering)								
+106	loyal	fickle							
+107	mature (in emotional development)	infantile							
+108	memory good	forgetful							
+109	mischievous								
+110	mulish	reasonable							
+111	mystical	appollonian							
+112	neurotic								
+113	opinionated	tolerant							
+114	optimistic	pessimistic							
+115	original	banal							
+116	patient	impatient							
+117	painstaking	slipshod							
+118	pedantic	disorderly							
+119	persevering	quitting							
+120	phantasying								
+121	physically active								
+122	pious	worldly							
+123	plaintive								
+124	planful	planless							
+125	poised	awkward							
+126	polished	rough							
+127	practical	unrealistic							
+128	pugnacious	peaceable							
+129	reliable	undependable							
+130	reserved	intrusive							
+131	resilient	depressible							
+132	responsive	aloof							
+133	reverent	rebellious							
+134	sadistic	masochistic							
+135	sarcastic								
+136	self-confident	self-distrusting							
+137	self-controlled								
+138	self-deceiving								
+139	self-pitying								
+140	Self-respecting								
+141	selfish	self-denying							
+142	sensitive	tough							
+143	sentimental	hard-headed							
+144	serious	frivolous							
+145	shrewd	naïve							
+146	slanderous								
+147	sleeps well	sleeps poorly							
+148	slow (temperamentally, in movement, in reaction)	quick							
+149	sociable I	shy				fond of meeting people, good mixer			
+150	sociable II	exclusive				gregarious, congregative, companionable			
+151	sophisticated	simple hearted							
+152	sour								
+153	stable emotionally	changeable							
+154	strong in personality								
+155	subjective	guided by reality							
+156	suggestible								
+157	tactful	tactless							
+158	talkative	taciturn							
+159	temperate	extreme (in schizohyme sense)							
+160	thoughtful	unreflective							
+161	thrifty	careless with goods							
+162	timid (disposition)	adventurous							
+163	treacherous								
+164	trustful	suspicious							
+165	versatile								
+166	vindictive	unresentful							
+167	vivacious								
+168	wandering	settling down							
+169	witty	humorless							
+170	wise	foolish							
+171	worrying	placid							
