@@ -23,7 +23,7 @@
 
       .container {
           padding: 20px;
-          width: 1400px
+          width: 1600px
       }
 
       text.mono {
@@ -58,23 +58,51 @@
 <meta charset="utf-8">
 
 <body>
-<div class="container">
+<div class="container" style="margin-left:5px;margin-right:5px">
     <div class="row">
-       <div class="col-md-3">
-           <ul>
-           {% for behav in behaviors %}
-               <li>{{ behav }}</li>
-           {% endfor %}
-           </ul>
+       <div class="col-md-2" style="overflow:scroll; height:100vh">
+          <!-- 
+          <select id="termlist" style="width:300px; margin-bottom:10px">
+              {% for behav,number,identifier,source in behaviors %}
+              <option value="{{ identifier }}">{{ behav }}</option>
+              {% endfor %}
+           </select>-->
+           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              {% for behav,number,identifier,source in behaviors %}
+               <div id="id{{ identifier }}"></div>
+               <div class="panel panel-default">
+                   <div class="panel-heading" role="tab" id="heading{{ number }}">
+                   <h4 class="panel-title">
+                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{{ identifier }}" aria-expanded="false" aria-controls="{{ identifier }}">{{ behav }}</a>
+                   </h4>
+                   </div>
+                   <div id="{{ identifier }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ number }}">
+                       <div class="panel-body">
+                       <a href="/download/{{ identifier }}">download</a> | <a href="/view/{{ identifier }}">view</a> | {{ source }}
+                       </div>
+                   </div>
+              </div>
+             {% endfor %}
+           </div>
+
+
        </div>
-       <div id="trait" class="col-md-9">
+       <div id="trait" class="col-md-8">
            <h1>{{ behavior }}</h1>
+       </div>
+       <div class="col-md-2">
+           <h4>Definition</h4>
+           <div class="well" id="definition">
+           mouse over <img height="20px" src="http://png.findicons.com/files/icons/2770/ios_7_icons/128/brain_filled.png"/> for definition
+           </div>
        </div>
     </div>
 </div>
 
 
 <script>
+
+// D3
 
     var width = 800,
         height = 500
@@ -115,10 +143,17 @@
       .data(json.nodes)
     .enter().append("g")
       .attr("class", "node")
+      .on("mouseover",function(d){
+          if (d.definition!=""){
+              $( "#definition" ).text(d.definition)
+          } else {
+              $( "#definition" ).text("undefined in WordNet")
+          }
+      })
       .call(force.drag);
 
   node.append("image")
-      .attr("xlink:href", "https://github.com/favicon.ico")
+      .attr("xlink:href", "http://png.findicons.com/files/icons/2770/ios_7_icons/128/brain_filled.png")
       .attr("x", -8)
       .attr("y", -8)
       .attr("width", 16)
@@ -127,7 +162,14 @@
   node.append("text")
       .attr("dx", 12)
       .attr("dy", ".35em")
-      .text(function(d) { return d.name });
+      .text(function(d) { return d.name })
+      .on("mouseover",function(d){
+          if (d.definition!=""){
+              $( "#definition" ).text(d.definition)
+          } else {
+              $( "#definition" ).text("undefined in WordNet")
+          }
+      })
 
   force.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x; })
@@ -137,5 +179,22 @@
 
     node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
   });
+
+// Select 2
+//var termlist = $("#termlist").select2()
+//$("#termlist").on("change", function(e) {
+//    var theID = $(termlist).select2('data')[0].id;
+//    jump("id" + theID)
+//    var panel = $("#" + theID)
+//    if (panel.hasClass("in")) {
+//        panel.removeClass("in")
+//    } else {
+//        panel.addClass("in")
+//    }
+//})
+//function jump(h){
+//    var top = document.getElementById(h).screenY; 
+//    document.getElementById(h).scrollTop += top;
+//}
 </script>
 
