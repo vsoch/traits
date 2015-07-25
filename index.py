@@ -4,11 +4,40 @@ import os
 
 app = Flask(__name__)
 
+from cognitiveatlas import load_behaviors, Behavior, get_json
+import random
+import json
+
+def get_behavior(trait):
+    return Behavior(trait)
+
+
 @app.route('/about')
 def show_about():
     return render_template('about.html')
 
+
 @app.route('/')
+def explore_traits():
+    
+    # Read in behavioral terms and cattell terms
+    traits = load_behaviors()
+    cattell = pandas.read_pickle("data/pickle/cattell_personality_282.pkl").trait.unique().tolist()
+    behaviors = [x.replace("\xc3\xaf","i") for x in traits + cattell]
+        
+
+    # Generate Behavior object with related terms
+    behavior = get_behavior(random.sample(traits,1)[0])
+    if len(behavior.is_a) == 0:   
+        myjson = {"nodes":[{"name":behavior.trait}],"links":[]}
+    else:
+        myjson = get_json(behavior)
+    prettyjson = json.dumps(myjson, sort_keys=True, indent=4, separators=(',', ': '))
+
+    return render_template('index.html',prettyjson=prettyjson,behavior=behavior.trait,behaviors=behaviors)
+
+
+@app.route('/cattell')
 def show_traits():
 
     # Load the personality traits
@@ -28,7 +57,8 @@ def show_traits():
     opposites = traits.opposite.tolist()
     searchcontent = zip(terms,opposites)
 
-    return render_template('index.html',table=table,search=searchcontent)
+    return render_template('cattell.html',table=table,search=searchcontent)
+
 
 if __name__ == '__main__':
     app.debug = True
