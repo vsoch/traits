@@ -57,7 +57,7 @@
                mouse over <img height="20px" src="http://png.findicons.com/files/icons/2770/ios_7_icons/128/brain_filled.png"/> for definition
            </div>
            <a onclick="showModal()" href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-question-sign"></span> About</a>
-           <a href="{{ url_for('static',filename='behaviors.pkl') }}" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-arrow-down"></span> Download</a>
+           <a href="{{ url_for('static',filename='behaviors_cnp.zip') }}" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-arrow-down"></span> Download</a> <a href="/cattell" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Cattell's</a>
        </div>
     </div>
 </div>
@@ -187,9 +187,9 @@ function hideModal() {
 </script>
 
       <!--About modal-->
-      <div id='about_modal' class='modal' data-backdrop='static' style='margin-top: 175px;'>
+      <div id='about_modal' class='modal' data-backdrop='static' style='margin-top: 75px;'>
           <div class='modal-dialog'>
-              <div class='modal-content' style="height:500px">
+              <div class='modal-content'>
   <div class='modal-header'>
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="hideModal()">&times;</button>
       <h4 class="modal-title">About</h4>
