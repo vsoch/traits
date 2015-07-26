@@ -6,58 +6,19 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-
-    <!--Select 2-->
+    <script src="{{ url_for('static',filename='tipsy.js') }}"></script>
+   
+    <!--Select 2
     <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>-->
     
-    <style>
- 
-      body {
-          font-family: 'Roboto', sans-serif;
-      }
-      rect.bordered {
-        stroke: #E6E6E6;
-        stroke-width:2px;   
-      }
-
-      .container {
-          padding: 20px;
-          width: 1600px
-      }
-
-      text.mono {
-        font-size: 9pt;
-        font-family: 'Roboto', sans-serif lower-case;
-        fill: #aaa;
-      }
-
-      text.yaxis {
-        fill: #000;
-      }
-
-      text.xaxis {
-        fill: #000;
-      }
-
-      footer {
-          padding-left:20px;
-          padding-bottom:10px;
-      }
-
-      .link {
-          stroke: #ccc;
-       }
-
-      .node text {
-          pointer-events: none;
-          font: 10px sans-serif;
-       }
-    </style>
+    <link href="{{ url_for('static',filename='style.css') }}" rel="stylesheet" />
+    
 </head>
 <meta charset="utf-8">
 
 <body>
+<div id="fade"></div>
 <div class="container" style="margin-left:5px;margin-right:5px">
     <div class="row">
        <div class="col-md-2" style="overflow:scroll; height:100vh">
@@ -71,16 +32,16 @@
               {% for behav,number,identifier,source in behaviors %}
                <div id="id{{ identifier }}"></div>
                <div class="panel panel-default">
-                   <div class="panel-heading" role="tab" id="heading{{ number }}">
-                   <h4 class="panel-title">
-                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{{ identifier }}" aria-expanded="false" aria-controls="{{ identifier }}">{{ behav }}</a>
-                   </h4>
-                   </div>
-                   <div id="{{ identifier }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ number }}">
-                       <div class="panel-body">
-                       <a href="/download/{{ identifier }}">download</a> | <a href="/view/{{ identifier }}">view</a> | {{ source }}
-                       </div>
-                   </div>
+   <div class="panel-heading" role="tab" id="heading{{ number }}">
+   <h4 class="panel-title">
+       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{{ identifier }}" aria-expanded="false" aria-controls="{{ identifier }}">{{ behav }}</a>
+   </h4>
+   </div>
+   <div id="{{ identifier }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ number }}">
+       <div class="panel-body">
+       <a href="/download/{{ identifier }}" target="_blank">download</a> | <a href="/view/{{ identifier }}">view</a> | {{ source }}
+       </div>
+   </div>
               </div>
              {% endfor %}
            </div>
@@ -93,14 +54,25 @@
        <div class="col-md-2">
            <h4>Definition</h4>
            <div class="well" id="definition">
-           mouse over <img height="20px" src="http://png.findicons.com/files/icons/2770/ios_7_icons/128/brain_filled.png"/> for definition
+               mouse over <img height="20px" src="http://png.findicons.com/files/icons/2770/ios_7_icons/128/brain_filled.png"/> for definition
            </div>
+           <a onclick="showModal()" href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-question-sign"></span> About</a>
+           <a href="{{ url_for('static',filename='behaviors.pkl') }}" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-arrow-down"></span> Download</a>
        </div>
     </div>
 </div>
 
 
 <script>
+
+// Tooltips
+var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-10, 0])
+    .html(function(d) {
+        return "<strong>Example: </strong><span style='color:tomato'>" + d.example + "</span><br><strong>Lemmas: </strong><span style='color:yellow'>" + d.lemmanames + "</span><br><strong>LexName: </strong><span style='color:orange'>" + d.lexname + "</span><br><strong>Part of Speech: </strong><span style='color:cornflowerBlue'>" + d.pos + "</span><br><strong>Similar Words:</strong><span style='color:blue'> " + d.similartos + "</span>";
+})
+
 
 // D3
 
@@ -111,6 +83,9 @@
         .attr("width", width)
         .attr("height", height);
 
+    // Call tooltips function
+    svg.call(tip);
+    
     var force = d3.layout.force()
         .gravity(.05)
         .distance(100)
@@ -146,10 +121,13 @@
       .on("mouseover",function(d){
           if (d.definition!=""){
               $( "#definition" ).text(d.definition)
-          } else {
+          }
+          else {
               $( "#definition" ).text("undefined in WordNet")
           }
       })
+      .on('mouseout.tip', tip.hide)
+      .on('mouseover.tip', tip.show)
       .call(force.drag);
 
   node.append("image")
@@ -165,7 +143,7 @@
       .text(function(d) { return d.name })
       .on("mouseover",function(d){
           if (d.definition!=""){
-              $( "#definition" ).text(d.definition)
+              $( "#definition" ).text("d.definition")
           } else {
               $( "#definition" ).text("undefined in WordNet")
           }
@@ -196,5 +174,37 @@
 //    var top = document.getElementById(h).screenY; 
 //    document.getElementById(h).scrollTop += top;
 //}
+
+// Show or hide modal
+function showModal() {
+    document.getElementById('about_modal').style.display = 'block';
+    document.getElementById('fade').style.display = 'block';
+}
+function hideModal() {
+    document.getElementById('about_modal').style.display = 'none';
+    document.getElementById('fade').style.display = 'none';
+}
 </script>
 
+      <!--About modal-->
+      <div id='about_modal' class='modal' data-backdrop='static' style='margin-top: 175px;'>
+          <div class='modal-dialog'>
+              <div class='modal-content' style="height:500px">
+  <div class='modal-header'>
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="hideModal()">&times;</button>
+      <h4 class="modal-title">About</h4>
+  </div>
+  <div class='modal-body'>
+  <h4>What is this list?</h4>
+  <p>The list on the left of behavioral traits are terms derived from questions in <a href="" target="_blank">a large assessment database</a>, along with <a href="/cattell">a set</a> from the psychologist William Cattell.</p>
+  <h4>What are the small graphs?</h4>
+  <p>Each graph represents a cluster of synonyms from a <a href="https://wordnet.princeton.edu/" target="_blank">lexical database</a>. A node can either be an alternate definition, or another word that, according to the database, means the same thing. In the case of the latter, a link is rendered between the nodes, and the length of this link represents how similar the terms are.</p>
+  <h4>What's the point?</h4>
+  <p>We want to derive relationships between behavioral trait terms in a data driven way, which means searching for a pair of terms in some text and using NLP to derive some kind of relationship. What happens if I am searching for "nervous," but a person is described as "anxious?" We would miss it, and so we need to have multiple representations for any given term. This expansion of terms is what this simple interface is showing. For example, if we look at <a href="/view/nervous">nervous</a> we see that there are five synonyms / alternate definitions (nodes), and when we mouse over each node, we find a total of 13 ways (nervous, aflutter, skittish, anxious, flightly, spooky, excited, queasy, uneasy, unquiet, troubled, tense, and neural) that we might describe a nervous person. Each of those terms is ascribed with a number that represents the similarity to the original term, so if we find them in some text, we can use this information when we derive our relationships.
+  <h4>What comes next?</h4>
+  <p>We will parse text, derive relationships, and generate a behavioral ontology that can be used to derive a <a href="http://www.github.com/vsoch/CogatPheno" target="_blank">Cognitive Phenotype.</a> Stay tuned!</p>
+</div>
+              </div>
+          </div>
+      </div><!-- close modal -->
+</html>

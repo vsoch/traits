@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 import pandas
 import os
 
@@ -40,16 +40,26 @@ def render_index(trait,df):
 
     return render_template('index.html',prettyjson=prettyjson,behavior=behavior.trait,behaviors=behaviors)
 
+
+@app.route('/download/<traitid>')
+def download_trait(traitid):
+    df = get_behaviors_df()
+    
+    # Find the selected trait
+    trait = str(df["traits"][df["ids"] == traitid].tolist()[0])
+    behavior = get_behavior(trait)
+    if len(behavior.is_a) == 0:   
+        myjson = {"nodes":[{"name":behavior.trait,"definition":""}],"links":[]}
+    else:
+        myjson = get_json(behavior)
+    return jsonify(**myjson)
+
    
 @app.route('/view/<traitid>')
 def select_traits(traitid):
     df = get_behaviors_df()
     
-    print df.columns
-    print df
     # Find the selected trait
-    print df["traits"][df["ids"] == traitid]
-    
     trait = str(df["traits"][df["ids"] == traitid].tolist()[0])
     return render_index(trait,df)
 
