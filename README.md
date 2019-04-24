@@ -4,4 +4,14 @@
 
 Harder to find are the original 14,535 (I have yet to find them), and the list of 171 in a machine accessible format. This repository is a first attempt to make these traits more accessible to interested researchers. It currently includes the [list of 171](data/tsv/cattell_personality_171.tsv), and the same data with [the opposites parsed out]() and a tool to search / view / query will be released shortly.
 
-An interactive table of the current database is [available](http://www.vbmis.com/bmi/project/traits).
+The previous demo has been taken down, but you can build a demo container:
+
+```bash
+$ docker build -t vanessa/flask-traits .
+```
+
+or run one provided:
+
+```bash
+$ docker run -p 5000:5000 vanessa/flask-traits
+```
